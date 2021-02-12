@@ -16,11 +16,12 @@ body {
     "sd main main main"
     "ft ft ft ft";
     border: 2px solid blue;
+    background-image: url('C:/Users/natal/Automation/Udacity/Project1-PBW/PBW/images/background1.jpg');
     /*justify-content: center;*/
 }
 
 .box{
-    display: flex;
+    /*display: flex;*/
     /*align-items: center;
     justify-content: center;*/
     border: solid yellow;
@@ -33,6 +34,7 @@ body {
 #img{
     grid-area: img;
     border: solid rosybrown;
+    text-align: center;
     /*background-image: url('C:/Users/natal/Automation/Udacity/Project1-PBW/PBW/images/img1.jpg');*/
 }
 
@@ -54,6 +56,15 @@ img{
 }
 
 h1{
-    font-size: 46px;
+    font-size: 55px;
     font-style: italic;
+    color: mediumpurple;
+    text-align: center;
+}
+
+h2{
+    font-size: 32px;
+    font-style: italic;
+    color: mediumpurple;
+    text-align: center;
 }
