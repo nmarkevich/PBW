@@ -1,9 +1,12 @@
+@import "post.css";
+
 body {
     background-image: url('C:/Users/natal/Automation/Udacity/Project1-PBW/PBW/images/background1.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.container{
+.container1{
     display: grid;
     width: 100vw;
     height: 100vh;
@@ -15,27 +18,26 @@ body {
     "img img hd hd"
     "sd main main main"
     "ft ft ft ft";
-    border: 2px solid blue;
-    /*justify-content: center;*/
+    /*border: 2px solid blue;
+    justify-content: center;*/
 }
 
 .box{
-    /*display: flex;*/
-    /*align-items: center;
-    justify-content: center;*/
-    border: solid yellow;
+    /*display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid yellow;*/
     color: mediumpurple;
 }
 
-#header{
+#header1{
     grid-area: hd;
 }
 
 #img{
     grid-area: img;
-    border: solid rosybrown;
+    /*border: solid rosybrown;*/
     text-align: center;
-    /*background-image: url('C:/Users/natal/Automation/Udacity/Project1-PBW/PBW/images/img1.jpg');*/
 }
 
 img{
@@ -43,15 +45,15 @@ img{
     height:auto;
 }
 
-#sidebar{
+#sidebar1{
     grid-area: sd;
 }
 
-#content{
+#content1{
     grid-area: main;
 }
 
-#footer{
+#footer1{
     grid-area: ft;
 }
 
