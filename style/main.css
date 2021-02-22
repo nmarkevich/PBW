@@ -1,0 +1,35 @@
+@import "post.css";
+@import "small.css";
+@import "medium.css";
+@import "large.css";
+
+body {
+    /*background-image: url('C:/Users/natal/Automation/Udacity/Project1-PBW/PBW/images/background1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;*/
+    font-family: "Lemonada";
+    margin: 0;
+}
+
+.box{
+    /*display: flex;
+    align-items: center;
+    justify-content: center;*/
+    border: solid yellow;
+    color: mediumpurple;
+}
+
+h1{
+    font-size: 55px;
+    font-style: italic;
+    color: mediumpurple;
+    text-shadow: 2px 2px 5px gray;
+    text-align: center;
+}
+
+h2{
+    font-size: 32px;
+    font-style: italic;
+    /*color: mediumpurple;*/
+    text-align: center;
+}

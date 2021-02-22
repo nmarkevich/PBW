@@ -1,0 +1,53 @@
+/* rules for small screen*/
+.container {
+    display: grid;
+    margin:auto;
+    height: 100vh;
+    width: 100vw;
+    grid-template-rows: auto 50% 20% 5%;
+    /*grid-gap: 15px;*/
+    grid-template-areas: 
+    "hd"
+    "sd"
+    "main"
+    "ft";
+    border: 2px solid blue;
+    /*justify-content: center;*/
+}
+
+#sidebar{
+    grid-area: sd;
+}
+
+#content{
+    grid-area: main;
+}
+
+#footer{
+    grid-area: ft;
+}
+
+#header {
+    grid-area: hd;
+    background-color: #41c7c7;
+    display: grid;
+    grid-template-columns: fit-content(20%) auto;
+}
+
+/*.nav {
+    display: inline;
+}*/
+
+.nav a {
+    padding: 15px;
+    text-decoration: none;
+}
+
+#logo {
+    padding: 15px;
+    margin-left: 15px;
+    background-color: cornsilk;
+    text-align: center;
+    font-weight: 700;
+    display: inline-block;
+}

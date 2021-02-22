@@ -1,0 +1,49 @@
+/* rules for large screen*/
+@media(min-width:900px){
+    .container{
+        display: grid;
+        margin:auto;
+        height: 100vh;
+        width: 100vw;
+        grid-template-columns: 25% 25% 25% auto;
+        grid-template-rows: 20% 70% auto;
+        /*grid-gap: 15px;*/
+        grid-template-areas: 
+        "hd hd hd hd"
+        "sd main main main"
+        "ft ft ft ft";
+        border: 2px solid green;
+        /*justify-content: center;*/
+    }
+
+    .nav {
+        display: inline;
+    }
+
+    .container2{
+        display: grid;
+        width: 100vw;
+        height: 100vh;
+        margin:auto;
+        grid-template-columns: 250px 200px 500px 500px;
+        grid-template-rows: 250px 430px 50px;
+        /*grid-gap: 15px;*/
+        grid-template-areas: 
+        "hd hd hd hd"
+        "main main main main"
+        "ft ft ft ft";
+        /*border: 2px solid blue;
+        justify-content: center;*/
+    }
+
+    #img{
+        grid-area: img;
+        /*border: solid rosybrown;*/
+        text-align: center;
+    }
+    
+    img{
+        max-width:100%;
+        height:auto;
+    }
+}
