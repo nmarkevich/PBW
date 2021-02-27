@@ -35,15 +35,4 @@
         /*border: 2px solid blue;
         justify-content: center;*/
     }
-
-    #img{
-        grid-area: img;
-        /*border: solid rosybrown;*/
-        text-align: center;
-    }
-    
-    img{
-        max-width:100%;
-        height:auto;
-    }
 }
