@@ -21,6 +21,9 @@
 
 #content{
     grid-area: main;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 #footer{
@@ -52,20 +55,14 @@
     display: inline-block;
 }
 
-.content {
-    display:grid;
-    grid-template-columns: 40% 60%;
-    grid-template-areas: 
-    "img text";
-
-}
-
 #img1 {
-    grid-area: img;
+    /*grid-area: img;
     width: 400;
-    height: 200;
+    height: 200;*/
+    flex: 50%;
 }
 
 #text1 {
-    grid-area: text;
+    /*grid-area: text;*/
+    flex: 50%;
 }
