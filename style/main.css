@@ -8,10 +8,11 @@ body {
     background-size: cover;
     background-repeat: no-repeat;*/
     font-family: "Lemonada";
+    font-weight: 300;
     margin: 0;
 }
 
-.box{
+.box {
     /*display: flex;
     align-items: center;
     justify-content: center;*/
@@ -29,16 +30,8 @@ ul {
     margin: 0;
 }
 
-h1{
-    font-size: 55px;
-    font-style: italic;
-    color: mediumpurple;
-    text-shadow: 2px 2px 5px gray;
-    text-align: center;
-}
-
-h2{
-    font-size: 32px;
+h2 {
+    font: size 18px;
     font-style: italic;
     text-align: center;
     margin: 0;

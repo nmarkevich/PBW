@@ -4,7 +4,8 @@
     margin:auto;
     height: 100vh;
     width: 100vw;
-    grid-template-rows: auto 30% 40% 5%;
+    grid-template-columns: auto;
+    grid-template-rows: 15% 20% auto 5%;
     /*grid-gap: 15px;*/
     grid-template-areas: 
     "hd"
@@ -15,22 +16,22 @@
     /*justify-content: center;*/
 }
 
-#sidebar{
+#sidebar {
     grid-area: sd;
 }
 
-#content{
+#maincontent {
     grid-area: main;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
 }
 
-#footer{
+#footer {
     grid-area: ft;
 }
 
-#header {
+#mainheader {
     grid-area: hd;
     background-color: #41c7c7;
     display: grid;
@@ -55,14 +56,21 @@
     display: inline-block;
 }
 
-#img1 {
-    /*grid-area: img;
-    width: 400;
-    height: 200;*/
-    flex: 50%;
-}
+/*.item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}*/
 
-#text1 {
-    /*grid-area: text;*/
-    flex: 50%;
-}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  p {
+      font-size: 12px;
+  }
+
+
+

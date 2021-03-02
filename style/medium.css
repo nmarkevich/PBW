@@ -1,11 +1,11 @@
 /* rules for medium screen*/
-@media(min-width:600px) and (max-width:899px){
-    .container{
+@media (min-width:600px) and (max-width:899px) {
+    .container {
         display: grid;
         margin:auto;
         height: 100vh;
         width: 100vw;
-        grid-template-rows: 20% 50% 20% auto;
+        grid-template-rows: 15% auto auto 5%;
         /*grid-gap: 15px;*/
         grid-template-areas: 
         "hd"
@@ -20,7 +20,20 @@
         display: inline;
     }
 
-    .container2{
+    
+h2 {
+    font-size: 24px;
+    font-style: italic;
+    text-align: center;
+    margin: 0;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+}
+
+    .container2 {
         display: grid;
         width: 100vw;
         height: 100vh;
