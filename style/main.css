@@ -9,6 +9,7 @@ body {
     background-repeat: no-repeat;*/
     font-family: "Lemonada";
     font-weight: 300;
+    background-color: cornsilk;
     margin: 0;
 }
 
@@ -31,7 +32,7 @@ ul {
 }
 
 h2 {
-    font: size 18px;
+    font-size: 18px;
     font-style: italic;
     text-align: center;
     margin: 0;
