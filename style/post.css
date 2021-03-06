@@ -20,7 +20,7 @@
 #content2{
     display: flex;
     border-color: blue;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     padding: 5px;
 
@@ -36,5 +36,23 @@
 
 #footer2{
     grid-area: ft;
+}
+
+.gallery {
+    display:flex;
+    flex-direction: column;
+}
+
+.book {
+    display:flex;
+    flex-direction: column;
+}
+
+.cover {
+    display:flex;
+    flex-direction: row;
+    margin: 10px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
 }
 
