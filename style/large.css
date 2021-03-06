@@ -35,19 +35,4 @@
         background-color: red;
     }
 
-    .container2 {
-        display: grid;
-        width: 100vw;
-        height: 100vh;
-        margin:auto;
-        grid-template-columns: 250px 200px 500px 500px;
-        grid-template-rows: 250px 430px 50px;
-        /*grid-gap: 15px;*/
-        grid-template-areas: 
-        "hd hd hd hd"
-        "main main main main"
-        "ft ft ft ft";
-        /*border: 2px solid blue;
-        justify-content: center;*/
-    }
 }
