@@ -37,6 +37,7 @@
     background-color: #41c7c7;
     display: grid;
     grid-template-columns: fit-content(20%) auto;
+    align-items: flex-end;
 }
 
 .nav {

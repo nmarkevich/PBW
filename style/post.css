@@ -38,22 +38,11 @@
     grid-area: ft;
 }
 
-.gallery {
-    display:flex;
-    flex-direction: column;
-}
-
 .book {
     display:flex;
-    flex-direction: column;
-}
-
-.cover {
-    display:flex;
     flex-direction: row;
-    margin: 10px;
-    justify-content: flex-start;
-    flex-wrap: wrap;
+    align-items: center;
+    margin: 5px;
 }
 
 .avatar {
@@ -61,4 +50,8 @@
     width: 50px;
     height: 50px;
     border-radius: 50%;
+  }
+
+  .description {
+      padding: 15px;
   }
