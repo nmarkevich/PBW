@@ -28,7 +28,7 @@ h2 {
     margin: 0;
 }
 
-.item {
+.maintitle {
     display: flex;
     flex-direction: row;
 }
