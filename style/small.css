@@ -12,12 +12,14 @@
     "sd"
     "main"
     "ft";
-    border: 2px solid blue;
+    /*border: 2px solid blue;*/
     /*justify-content: center;*/
 }
 
 #sidebar {
     grid-area: sd;
+    margin: 15px;
+    justify-content: left;
 }
 
 #maincontent {
@@ -26,11 +28,6 @@
     flex-direction: column;
     align-items: center;
     margin: 20px;
-}
-
-#footer {
-    grid-area: ft;
-    background-color: #41c7c7;
 }
 
 #mainheader {
@@ -48,6 +45,7 @@
 .nav a {
     padding: 15px;
     text-decoration: none;
+    background-color: cornsilk;
 }
 
 #logo {

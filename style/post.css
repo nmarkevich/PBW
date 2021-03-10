@@ -19,7 +19,7 @@
 
 #content2{
     display: flex;
-    border-color: blue;
+    /*border-color: blue;*/
     flex-direction: column;
     flex-wrap: wrap;
     padding: 5px;
