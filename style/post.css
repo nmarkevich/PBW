@@ -49,14 +49,6 @@
       padding: 15px;
   }
 
-  #footer2 {
-    grid-area: ft;
-    background-color: #41c7c7;
-    display: flex;
-    padding: 15px;
-    justify-content: space-between;
-}
-
 .fa {
     padding: 5px;
     font-size: 5px;

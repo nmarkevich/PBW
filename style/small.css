@@ -32,7 +32,7 @@
 
 #mainheader {
     grid-area: hd;
-    background-color: #41c7c7;
+    background-color: #b3f6f6;
     display: grid;
     grid-template-columns: fit-content(20%) auto;
     align-items: flex-end;
