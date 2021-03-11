@@ -9,10 +9,7 @@ body {
     font-size: 12px;
     background-color: cornsilk;
     margin: 0;
-}
-
-.box {
-    color: mediumpurple;
+    color:blue;
 }
 
 .nav2 {
@@ -40,7 +37,7 @@ h4 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 50%;
+    border-radius: 20%;
 }
 
 #footer {
@@ -83,4 +80,5 @@ h4 {
     font-family: "Lemonada";
     font-weight: 300;
     font-size: 12px;
+    border-radius: 5%;
 }

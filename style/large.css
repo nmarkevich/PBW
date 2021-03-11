@@ -7,13 +7,10 @@
         width: 100vw;
         grid-template-columns: repeat(4, auto);
         grid-template-rows: 15% auto auto;
-        /*grid-gap: 15px;*/
         grid-template-areas: 
         "hd hd hd hd"
         "sd main main main"
         "ft ft ft ft";
-        /*border: 2px solid green;*/
-        /*justify-content: center;*/
     }
 
     .nav {

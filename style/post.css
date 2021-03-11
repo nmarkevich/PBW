@@ -7,24 +7,21 @@
     height: 100vh;
     margin:auto;
     grid-template-columns: auto;
-    grid-template-rows: 15% auto auto;
-    /*grid-gap: 15px;*/
+    grid-template-rows: 15% auto auto auto;
     grid-template-areas: 
     "hd"
+    "ai"
     "main"
     "ft";
-    /*border: 2px solid blue;
-    justify-content: center;*/
 }
 
 #content2{
     grid-area: main;
     display: flex;
-    /*border-color: blue;*/
     flex-direction: column;
     flex-wrap: wrap;
-    padding: 5px;
-
+    padding: 20px;
+    align-items: center;
 }
 
 #header2{
@@ -76,4 +73,21 @@
 .bth {
     display: block;
     text-align: center;
+}
+
+.homebtn {
+    display: block;
+    background-color: #b3f6f6;
+    border: none;
+    padding: 15px;
+    text-align: center;
+    font-family: "Lemonada";
+    font-weight: 300;
+    font-size: 12px;
+    border-radius: 5%;
+    width: 20%;
+}
+
+#AuthorInfo {
+    grid-area: ai;
 }

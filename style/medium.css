@@ -6,7 +6,6 @@
         height: 100vh;
         width: 100vw;
         grid-template-rows: 15% auto auto auto;
-        /*grid-gap: 15px;*/
         grid-template-areas: 
         "hd"
         "sd"
