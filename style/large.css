@@ -13,11 +13,6 @@
         "ft ft ft ft";
     }
 
-    .nav {
-        display: inline;
-    }
-
-    
     h2 {
         font-size: 32px;
         font-style: italic;
@@ -30,6 +25,16 @@
         flex-direction: row;
         align-items: center;
         padding: 20px;
+    }
+
+    .mainmenu {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .container2{
+        grid-template-rows: 15% auto auto auto;
+    
     }
 
 }

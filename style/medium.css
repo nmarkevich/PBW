@@ -12,12 +12,7 @@
         "main"
         "ft";
     }
-
-    .nav {
-        display: inline;
-    }
-
-    
+   
 h2 {
     font-size: 24px;
     font-style: italic;
@@ -28,6 +23,16 @@ h2 {
 .maintitle {
     display: flex;
     flex-direction: row;
+}
+
+.mainmenu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container2{
+    grid-template-rows: 15% auto auto auto;
+
 }
 
 }

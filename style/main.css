@@ -12,13 +12,13 @@ body {
     color: #4a0a5a; /*#362c35;*/
 }
 
-.nav2 {
+.sidenav {
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
 
-.menu {
+.mainmenu {
     margin: 0;
 }
 
@@ -28,6 +28,11 @@ h2 {
     text-align: center;
     margin: 20px;
     padding: 20px;
+    color: #5d0a72; /* #7e587e;*/
+}
+
+h5 {
+    font-weight: 700;
     color: #5d0a72; /* #7e587e;*/
 }
 
