@@ -13,13 +13,6 @@
         "ft";
     }
    
-h2 {
-    font-size: 24px;
-    font-style: italic;
-    text-align: center;
-    margin: 0;
-}
-
 .maintitle {
     display: flex;
     flex-direction: row;
@@ -30,7 +23,7 @@ h2 {
     flex-wrap: wrap;
 }
 
-.container2{
+.postcontainer{
     grid-template-rows: 15% auto auto auto;
 
 }

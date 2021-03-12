@@ -1,7 +1,7 @@
 
 /* rules for small screen*/
 
-.container2{
+.postcontainer{
     display: grid;
     margin: auto;
     width: 100vw;
