@@ -1,8 +1,9 @@
 /* rules for large screen*/
 @media (min-width:900px) {
+
     .container {
         display: grid;
-        margin:auto;
+        margin: auto;
         height: 100vh;
         width: 100vw;
         grid-template-columns: repeat(4, auto);
@@ -25,13 +26,13 @@
         flex-wrap: wrap;
     }
 
-    .postcontainer{
+    .postcontainer {
         grid-template-rows: 15% auto auto auto;
     
     }
 
     .book {
-        display:flex;
+        display: flex;
         flex-direction: row;
         align-items: center;
         margin: 5px;
