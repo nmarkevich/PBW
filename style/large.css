@@ -1,5 +1,5 @@
 /* rules for large screen*/
-@media (min-width:900px) {
+@media (min-width:901px) {
 
     .container {
         display: grid;
